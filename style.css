@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+
+/*HEADER*/
+
+header{
+
+    background-image:url(./images/imagen2.jpg);
+    height: 1300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/imagen2.jpg); /*Como hacer un degradez de pagina sobre una imagen*/
+    
+}
+
+/*Parte arriba del header + barra de navegacion*/
+
+.section_arriba{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Lincoln*/
+.divL{
+    font-size:x-large;
+    color: white;
+    font-weight: bold; 
+}
+/*Opciones*/
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.items{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+/*Botonnn*/
+button, .boton{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+/*Parte media del header*/
+
+.section_media{
+    margin: 30px;
+    padding: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+      
+
+  
+}
+
+h1{ 
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    
+}
+h3{
+    text-align: center;
+    font-size: x-large;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Parte de abajo del header*/
+
+.section_abajo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    color: black;
+    font-weight: bold;
+    gap: 30px;
+    
+   
+}
+.contenido1{    
+   /*DUDA: ¿como hacer que los parrafos o el contenedor se ajuste a los parrafos?*/
+    height: 80px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
